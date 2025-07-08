@@ -3974,3 +3974,9 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [08Jul2025 02:40:29.682] [Server thread/INFO] [tombstone/]: The player Dono_el_van has successfully been saved
 [08Jul2025 02:44:45.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dono_el_van was slain by Zombie
 [08Jul2025 02:44:45.640] [Server thread/INFO] [tombstone/]: The player Dono_el_van has successfully been saved
+[08Jul2025 02:47:56.323] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: sunsetmaker864[/127.217.127.134:33597] logged in with entity id 2589 at (5.5, 78.0, -4.5)
+[08Jul2025 02:47:56.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sunsetmaker864 joined the game
+[08Jul2025 02:47:56.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sunsetmaker864 has made the advancement [Ice and Fire]
+[08Jul2025 02:47:56.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sunsetmaker864 has completed the challenge [The Undead]
+[08Jul2025 02:51:10.582] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sunsetmaker864 lost connection: Disconnected
+[08Jul2025 02:51:10.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sunsetmaker864 left the game
