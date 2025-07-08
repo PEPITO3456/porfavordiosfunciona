@@ -6,13 +6,13 @@
   "perceivedLoudnessAdjustmentFactor": 0.5,
   "mobInstrumentFactors": {
     "minecraft:piglin_brute": 0.01,
-    "minecraft:pillager": 0.01,
-    "minecraft:skeleton": 0.01,
-    "minecraft:wither_skeleton": 0.01,
-    "minecraft:zombified_piglin": 0.01,
-    "minecraft:piglin": 0.01,
+    "minecraft:zombie": 0.01,
     "minecraft:husk": 0.01,
-    "minecraft:zombie": 0.01
+    "minecraft:piglin": 0.01,
+    "minecraft:zombified_piglin": 0.01,
+    "minecraft:wither_skeleton": 0.01,
+    "minecraft:skeleton": 0.01,
+    "minecraft:pillager": 0.01
   },
   "mobInstrumentDropFactor": 0.085,
   "showOtherPlayersMelodies": true,
@@ -23,20 +23,20 @@
   "stopGameMusicForMobs": false,
   "uploadPermissionLevel": 0,
   "scancodeToMidi": {
-    "38": 60,
-    "39": 62,
-    "40": 64,
-    "41": 65,
     "42": 67,
-    "43": 69,
-    "44": 71,
-    "45": 72,
-    "24": 61,
-    "25": 63,
-    "27": 66,
-    "28": 68,
+    "41": 65,
+    "40": 64,
+    "39": 62,
+    "38": 60,
+    "30": 73,
     "29": 70,
-    "30": 73
+    "28": 68,
+    "27": 66,
+    "25": 63,
+    "24": 61,
+    "45": 72,
+    "44": 71,
+    "43": 69
   },
   "version": 1
 }
