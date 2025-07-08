@@ -1,13 +1,13 @@
 ---- Minecraft Crash Report ----
-// Quite honestly, I wouldn't worry myself about that.
+// Everything's going to plan. No, really, that was supposed to happen.
 
-Time: 2025-07-07 20:38:41
+Time: 2025-07-07 21:57:17
 Description: Mod loading error has occurred
 
 java.lang.Exception: Mod Loading has failed
-	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:60) ~[forge-1.20.1-47.3.7-universal.jar%23284!/:?] {re:classloading}
-	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:37) ~[forge-1.20.1-47.3.7-universal.jar%23284!/:?] {re:classloading}
-	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23279!/:?] {re:classloading}
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:60) ~[forge-1.20.1-47.3.7-universal.jar%23252!/:?] {re:classloading}
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:37) ~[forge-1.20.1-47.3.7-universal.jar%23252!/:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?] {re:classloading}
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
@@ -32,21 +32,21 @@ A detailed walkthrough of the error, its code path and all known details is as f
 Thread: main
 Suspected Mods: NONE
 Stacktrace:
-	at net.minecraftforge.logging.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:63) ~[forge-1.20.1-47.3.7-universal.jar%23284!/:?] {re:classloading}
--- MOD alexscaves_torpedoes --
+	at net.minecraftforge.logging.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:63) ~[forge-1.20.1-47.3.7-universal.jar%23252!/:?] {re:classloading}
+-- MOD waystones --
 Details:
-	Mod File: /workspaces/porfavordiosfunciona/servidor_minecraft/mods/alexscaves_torpedoes-1.0.4.jar
-	Failure message: Mod alexscaves_torpedoes requires alexscaves 0 or above
-		Currently, alexscaves is not installed
-	Mod Version: 1.0.4
-	Mod Issue URL: NOT PROVIDED
+	Mod File: /workspaces/porfavordiosfunciona/servidor_minecraft/mods/waystones-forge-1.20.1-14.1.13 (1).jar
+	Failure message: Mod waystones requires balm 7.3.28 or above
+		Currently, balm is not installed
+	Mod Version: 14.1.13
+	Mod Issue URL: https://github.com/TwelveIterationMods/Waystones/issues
 	Exception message: MISSING EXCEPTION MESSAGE
 Stacktrace:
-	at net.minecraftforge.logging.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:63) ~[forge-1.20.1-47.3.7-universal.jar%23284!/:?] {re:classloading}
+	at net.minecraftforge.logging.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:63) ~[forge-1.20.1-47.3.7-universal.jar%23252!/:?] {re:classloading}
 	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?] {}
-	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:61) ~[forge-1.20.1-47.3.7-universal.jar%23284!/:?] {re:classloading}
-	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:37) ~[forge-1.20.1-47.3.7-universal.jar%23284!/:?] {re:classloading}
-	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23279!/:?] {re:classloading}
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:61) ~[forge-1.20.1-47.3.7-universal.jar%23252!/:?] {re:classloading}
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:37) ~[forge-1.20.1-47.3.7-universal.jar%23252!/:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?] {re:classloading}
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
@@ -64,6 +64,15 @@ Stacktrace:
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
 
 
+-- MOD alexscaves_torpedoes --
+Details:
+	Mod File: /workspaces/porfavordiosfunciona/servidor_minecraft/mods/alexscaves_torpedoes-1.0.4.jar
+	Failure message: Mod alexscaves_torpedoes requires alexscaves 0 or above
+		Currently, alexscaves is not installed
+	Mod Version: 1.0.4
+	Mod Issue URL: NOT PROVIDED
+	Exception message: MISSING EXCEPTION MESSAGE
+
 -- System Details --
 Details:
 	Minecraft Version: 1.20.1
@@ -71,7 +80,7 @@ Details:
 	Operating System: Linux (amd64) version 6.8.0-1027-azure
 	Java Version: 17.0.15, Ubuntu
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
-	Memory: 1644572592 bytes (1568 MiB) / 2147483648 bytes (2048 MiB) up to 12884901888 bytes (12288 MiB)
+	Memory: 1885764480 bytes (1798 MiB) / 2147483648 bytes (2048 MiB) up to 12884901888 bytes (12288 MiB)
 	CPUs: 4
 	Processor Vendor: AuthenticAMD
 	Processor Name: AMD EPYC 7763 64-Core Processor
@@ -87,7 +96,7 @@ Details:
 	Graphics card #0 deviceId: unknown
 	Graphics card #0 versionInfo: unknown
 	Virtual memory max (MB): 7995.00
-	Virtual memory used (MB): 5680.28
+	Virtual memory used (MB): 7339.51
 	Swap memory total (MB): 0.00
 	Swap memory used (MB): 0.00
 	JVM Flags: 2 total; -Xms2G -Xmx12G
